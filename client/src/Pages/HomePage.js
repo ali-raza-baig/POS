@@ -54,7 +54,7 @@ const HomePage = () => {
                 ))}
             </div>
             <div className='d-flex flex-wrap'>
-                {items.filter(item => item.category === category).map((item) => (
+                {items?.filter(item => item.category === category).map((item) => (
                     <Card
                         hoverable
                         style={{
