@@ -12,8 +12,8 @@ connection()
 const putData = async () => {
     try {
         // await itemModel.DeleteMany()
-        // const itemsData = await itemModel.insertMany(item);
-        // console.log('Data Successfuly uploaded'.bgCyan.white)
+        const itemsData = await itemModel.insertMany(item);
+        console.log('Data Successfuly uploaded'.bgCyan.white)
 
     } catch (error) {
         console.log(error)
